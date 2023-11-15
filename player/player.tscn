@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://b4u7tg13aluu3"]
+
+[ext_resource type="Texture2D" uid="uid://cy7ff8fl28dg2" path="res://assets/images/survivor1_gun.png" id="1_pkeoa"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_byumb"]
+
+[node name="Player" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_pkeoa")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_byumb")
