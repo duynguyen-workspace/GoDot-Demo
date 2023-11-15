@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://b4u7tg13aluu3"]
 
-[ext_resource type="Texture2D" uid="uid://cy7ff8fl28dg2" path="res://assets/images/survivor1_gun.png" id="1_pkeoa"]
+[ext_resource type="Texture2D" uid="uid://d2ns44cmst3us" path="res://assets/images/soldier1_gun.png" id="1_jbbog"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_byumb"]
 
@@ -45,7 +45,7 @@ _data = {
 [node name="Player" type="CharacterBody2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_pkeoa")
+texture = ExtResource("1_jbbog")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_byumb")
